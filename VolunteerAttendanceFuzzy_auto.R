@@ -13,7 +13,7 @@ session_first_names <- readLines("session_names.txt")
 #read in volunteer names
 # this is a custom sheet that copies the volunteer info from the master sheet
 
-sheet <- "https://docs.google.com/spreadsheets/d/TOKENHERE
+sheet <- "https://docs.google.com/spreadsheets/d/TOKENHERE"
 volunteer_info <- read_sheet(sheet, range = "Volunteers!A:B")
 
 # Combine first and last names
